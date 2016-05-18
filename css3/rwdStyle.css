@@ -7,34 +7,45 @@ header img {
 	height: 200px;
 }
 
-nav {
+nav {	
+	background: #aaaaaa;
 	height: 40px;
-}
-
-nav img {
-	width:100%;
+	border: 1px solid #baaaaa;
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 11pt;	
+    	font-weight: bold;    	
 }
 
 nav ul {
+	list-style-type: none;
 	width: 100%;
 	height: 40px;
+	padding: 0;
+    	margin: 0 auto;
 }
 
-nav ul li {
-	width: 100px;
+nav li {
 	float: left;
-	display: inline;
-	border: 1px solid #ffffff;
-	border-radius: 5px;
-	text-align: center;
 }
 
-nav ul li a {
-	box-sizing: 200px;
+nav li a {	
+	width: 100px;
+	display: block;
+	color: #FFFFFF;
+	text-align: center;	
+	text-decoration: none;
+    	box-sizing: border-box;    
+    	padding: 12px 6px 12px 10px;
+    	-moz-box-sizing:border-box;
+    	-webkit-box-sizing:border-box;
 }
 
 nav a:hover {
-	background-color: white;
+	background-color: #555;
+}
+
+nav a:hover {
+	background-color: #555;
 }
 
 div div article.topContent {
